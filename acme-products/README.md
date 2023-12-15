@@ -5,7 +5,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Commands
 
 ```bash
-ng g c home/welcome --flat --dry-run # Generate component
+# Generate component
+ng g c home/welcome --flat --dry-run 
+ng g c shared/star --flat --dry-run 
+
+# Install bootstrap and font-awesome
+npm i bootstrap font-awesome
 ```
 
 ## Development server

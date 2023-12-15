@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './star.component.scss'
 })
 export class StarComponent {
-
+  cropWidth: any = 75;
+  rating: any = 4;
 }
