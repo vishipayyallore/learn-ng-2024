@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
+## Commands
+
+```bash
+# Generate component
+ng g c home/welcome --flat --dry-run 
+ng g c shared/star --flat --dry-run 
+
+# Install bootstrap and font-awesome
+npm i bootstrap font-awesome
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
