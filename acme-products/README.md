@@ -12,7 +12,7 @@ ng g c shared/star --flat --dry-run
 # Install bootstrap and font-awesome
 npm i bootstrap font-awesome
 
-ng g c products/product-list --dry-run 
+ng g c products/product-list --dry-run
 ```
 
 ## Development server
