@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { StarComponent } from './shared/star.component';
+import { StarComponent } from './shared/star/star.component';
 
 @Component({
   selector: 'sv-root',
