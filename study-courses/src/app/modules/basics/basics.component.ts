@@ -8,15 +8,17 @@ import { Component } from '@angular/core';
   styleUrl: './basics.component.css'
 })
 export class BasicsComponent {
-  title = 'Study Courses';
+  title = '<h1>Study Courses</h1><script>alert("Hello World");</script>';
 
   onDivClicked() {
     console.log(`Div was clicked at ${new Date().toUTCString()}`);
   }
 
-  onTitleKeyUp(currentValue: string) {
+  onTitleKeyUp(currentTitle: string) {
     console.log(`Key up event was triggered at ${new Date().toUTCString()}`);
-    console.log(currentValue);
+    console.log(currentTitle);
+
+    this.title = currentTitle;
   }
 
 }
