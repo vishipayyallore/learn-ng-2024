@@ -9,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class BasicsComponent {
   title = 'Study Courses';
+
+  divClicked() {
+    console.log(`Div was clicked at ${new Date().toUTCString()}`);
+  }
+
 }
