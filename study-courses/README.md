@@ -6,6 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ```bash
 ng g c basics --dry-run
+
+npm i body-parser cors express rxjs
 ```
 
 ## Development server
