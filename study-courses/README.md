@@ -1,6 +1,12 @@
-# StudyCourses
+# Study Courses
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
+
+## Few Commands
+
+```bash
+ng g c basics --dry-run
+```
 
 ## Development server
 
