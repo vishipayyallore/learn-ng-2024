@@ -10,8 +10,13 @@ import { Component } from '@angular/core';
 export class BasicsComponent {
   title = 'Study Courses';
 
-  divClicked() {
+  onDivClicked() {
     console.log(`Div was clicked at ${new Date().toUTCString()}`);
+  }
+
+  onTitleKeyUp(currentValue: string) {
+    console.log(`Key up event was triggered at ${new Date().toUTCString()}`);
+    console.log(currentValue);
   }
 
 }

@@ -1,8 +1,8 @@
-<div (click)="divClicked()">
+<div (click)="onDivClicked()">
     <h1>Basics Demo</h1>
 
     <p>Title: <span>{{title}}</span></p>
-    <input class="title" type="text" [value]="title" />
+    <input class="title" type="text" [value]="title" #titleInput (keyup)="onTitleKeyUp(titleInput.value)" />
 
     <input class="title" type="text" [value]="'Hard Code String'" />
 </div>
