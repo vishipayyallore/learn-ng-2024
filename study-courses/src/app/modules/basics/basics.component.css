@@ -6,3 +6,19 @@ div {
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
 }
+
+input.title {
+    border: 2px solid #6ea5f8;
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span {
+    color: #6ea5f8;
+}
