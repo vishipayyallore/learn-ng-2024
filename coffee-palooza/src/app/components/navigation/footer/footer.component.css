@@ -1,0 +1,12 @@
+/* src/app/components/navigation/footer/footer.component.css */
+
+.footer {
+    width: 100%;
+    background-color: #f8f9fa; /* Example background color */
+    color: #6c757d; /* Example text color */
+    text-align: center; /* Center align text */
+    padding: 10px 0; /* Adjust padding as needed */
+    position: absolute; /* Position the footer absolutely */
+    bottom: 0; /* Stick to the bottom of the parent container */
+  }
+  
