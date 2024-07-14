@@ -1,12 +1,13 @@
+// src/app/components/top-navbar/top-navbar.component.ts
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'sv-top-navbar',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, RouterModule],
   templateUrl: './top-navbar.component.html',
-  styleUrl: './top-navbar.component.css'
+  styleUrls: ['./top-navbar.component.css']
 })
-export class TopNavbarComponent {
-
-}
+export class TopNavbarComponent { }
