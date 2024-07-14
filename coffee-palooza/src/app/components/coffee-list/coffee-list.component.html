@@ -1,4 +1,9 @@
 <div *ngIf="coffees$ | async as coffees" class="container mt-5">
+
+    <div *ngIf="!coffees.length">
+        <h1>Loading ...</h1>
+    </div>
+
     <div *ngIf="coffees.length">
         <h3 class="mb-3 text-center">Coffee List</h3>
 

@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 @Component({
-  selector: 'app-coffee-list',
+  selector: 'sv-coffee-list',
   standalone: true,
   imports: [CommonModule, FormsModule],
   providers: [CoffeeApiService],
