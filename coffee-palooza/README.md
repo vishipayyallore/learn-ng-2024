@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Few Commands
 
 ```powershell
-ng generate component components/top-navbar --standalone
+ng generate component components/navigation/top-navbar --standalone
+ng generate component components/navigation/footer --standalone
 ng generate component components/home --standalone
 ng generate component components/contact --standalone
 
