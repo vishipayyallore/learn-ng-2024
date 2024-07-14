@@ -1,8 +1,10 @@
-<!-- <sv-coffee-list></sv-coffee-list> -->
-<div class="main-container">
+<!-- src/app/app.component.html -->
+<div class="wrapper">
     <sv-top-navbar></sv-top-navbar>
 
-    <router-outlet />
+    <div class="content">
+        <router-outlet></router-outlet>
+    </div>
 
+    <sv-footer></sv-footer>
 </div>
-<sv-footer></sv-footer>
