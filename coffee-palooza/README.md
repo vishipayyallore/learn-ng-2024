@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
+## Few Commands
+
+```powershell
+ng generate component components/navigation/top-navbar --standalone
+ng generate component components/navigation/footer --standalone
+ng generate component components/home --standalone
+ng generate component components/contact --standalone
+
+```
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

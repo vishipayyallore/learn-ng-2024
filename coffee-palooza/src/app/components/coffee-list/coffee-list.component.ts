@@ -4,11 +4,12 @@ import { Coffee } from '../../types/coffee';
 import { Observable, map, of, tap } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'sv-coffee-list',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, HttpClientModule],
   providers: [CoffeeApiService],
   templateUrl: './coffee-list.component.html',
   styleUrls: ['./coffee-list.component.scss'],

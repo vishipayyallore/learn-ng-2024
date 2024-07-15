@@ -9,19 +9,54 @@
     --color-olivegreen: #6f633e;
 }
 
+/* Ensure all elements inherit box-sizing and reset margin/padding */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Set global body styles */
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     line-height: 2.2;
     font-size: 0.875rem;
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Ensure full viewport height */
+    margin: 0;
+    justify-content: space-between;
+    /* Align items evenly between the top and bottom */
+}
+
+/* Wrapper for main content and footer */
+.wrapper {
+    flex: 1;
+    /* Grow to fill remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content area */
+.content {
+    flex: 1;
+    /* Grow to fill remaining space */
+    margin-top: 5rem;
+    padding: 20px;
+    /* Example padding, adjust as needed */
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: var(--white);
+    /* Example background color */
+    color: var(--color-primary);
+    /* Example text color */
+    text-align: center;
+    /* Center align text */
+    padding: 10px 0;
+    /* Adjust padding as needed */
 }
