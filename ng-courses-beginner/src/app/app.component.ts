@@ -4,7 +4,7 @@ import { TopNavbarComponent } from './components/navigation/top-navbar/top-navba
 import { FooterComponent } from './components/navigation/footer/footer.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'sv-root',
   standalone: true,
   imports: [RouterOutlet, TopNavbarComponent, FooterComponent],
   templateUrl: './app.component.html',
