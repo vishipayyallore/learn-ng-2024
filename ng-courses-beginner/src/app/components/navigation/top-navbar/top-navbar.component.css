@@ -1,0 +1,10 @@
+/* src/app/components/top-navbar/top-navbar.component.css */
+.navbar {
+    width: 100%;
+    position: fixed;
+    /* Ensure the navbar stays at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* Ensure it stays above other content */
+}
