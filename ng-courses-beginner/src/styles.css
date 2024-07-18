@@ -46,10 +46,21 @@ body {
     width: 100%;
     background-color: var(--white);
     /* Example background color */
-    color: var(--color-primary);
+    color: white;
     /* Example text color */
     text-align: center;
     /* Center align text */
     padding: 10px 0;
     /* Adjust padding as needed */
+}
+
+/* Custom dark background for the footer */
+.bg-custom-dark {
+    background-color: #7e8082;
+}
+
+/* Ensure the footer text is appropriately styled */
+.footer .text-muted {
+    color: white
+    /* Adjust this color as needed for better contrast */
 }
