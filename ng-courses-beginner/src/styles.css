@@ -41,6 +41,15 @@ body {
     /* Example padding, adjust as needed */
 }
 
+/* Home content styles */
+.page-content {
+    flex: 1; /* Grow to fill remaining space */
+    border: 1px solid var(--color-primary);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer styles */
 .footer {
     width: 100%;

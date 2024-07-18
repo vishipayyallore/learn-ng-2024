@@ -10,4 +10,10 @@ import { RouterModule } from '@angular/router';
   templateUrl: './top-navbar.component.html',
   styleUrls: ['./top-navbar.component.css']
 })
-export class TopNavbarComponent { }
+export class TopNavbarComponent {
+
+  applicationName = 'Angular Basics';
+
+  constructor() { }
+
+}
