@@ -20,8 +20,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-    line-height: 2.2;
-    font-size: 0.875rem;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -43,15 +41,30 @@ body {
     /* Example padding, adjust as needed */
 }
 
+/* Home content styles */
+.page-content {
+    flex: 1; /* Grow to fill remaining space */
+    border: 1px solid var(--color-primary);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer styles */
 .footer {
     width: 100%;
     background-color: var(--white);
-    /* Example background color */
-    color: var(--color-primary);
-    /* Example text color */
     text-align: center;
-    /* Center align text */
     padding: 10px 0;
     /* Adjust padding as needed */
+}
+
+/* Custom dark background for the footer */
+.bg-custom-dark {
+    background-color: #7e8082;
+}
+
+/* Ensure the footer text is appropriately styled */
+.footer .text-muted-v1 {
+    color: white;
 }
